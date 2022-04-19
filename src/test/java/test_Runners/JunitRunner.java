@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 		
 		
 		features="src/test/java/features",
-		glue="stepDefinations", monochrome=true,
+		glue="stepDefinations", monochrome=true,dryRun=true,
 		plugin= {"pretty","html:target/cucumber.html","json:target/cucumber.json","junit:target/cucumber.xml"}
 		
 		
