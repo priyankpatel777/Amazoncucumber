@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="26.208">
+    <testcase classname="Validate Login Page for Amazon Application" name="Validating Login Page for Valid users" time="14.881">
+        <system-out><![CDATA[Given User invoking the browser.............................................passed
+And Navigate to the Amazon Home Page........................................passed
+When User accept cookies and click on Signin Option.........................passed
+Then Amazon Login Page is displayed.........................................passed
+When User enter priyankpatel48@yahoo.com and shankerji48 into the fields....passed
+And Click on Sign in button.................................................passed
+Then Amazon Account home page is displayed for valid user...................passed
+When User click on All option...............................................passed
+And Click signOut option....................................................passed
+Then User Sucessfully Signout...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate Login Page for Amazon Application" name="Validating Login Page for Valid users 2" time="11.106">
+        <system-out><![CDATA[Given User invoking the browser.............................................passed
+And Navigate to the Amazon Home Page........................................passed
+When User accept cookies and click on Signin Option.........................passed
+Then Amazon Login Page is displayed.........................................passed
+When User enter shekhapatel@ymail.com and shankerji48 into the fields.......passed
+And Click on Sign in button.................................................passed
+Then Amazon Account home page is displayed for valid user...................passed
+When User click on All option...............................................passed
+And Click signOut option....................................................passed
+Then User Sucessfully Signout...............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
